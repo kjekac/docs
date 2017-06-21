@@ -32,9 +32,8 @@
 * Emphasis on blockchain-as-a-knowledge-base.
 
   Metric:
-    let `c(A)` be the amount of code required to draw conclusions about the state of a set of contracts A.
-    
-    The metric is the growth of `c(A)` as `|A|` grows. Lower is better.
+    * let `c(A)` be the amount of code required to draw conclusions about the state of a set of contracts A.
+    * The metric is the growth of `c(A)` as `|A|` grows. Lower is better.
 
 * Formal verification possible within the program itself.
 
