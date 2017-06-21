@@ -44,7 +44,7 @@
 
 * Backwards compatibility with existing languages, ABI etc.
 * Intuitive descriptions for people not familiar with the language.
-* EVM gas consumption. I believe that language research should guide the VM design as far as practically possible, not the other way around. If the EVM proves insufficient and Ethereum refuses to adapt for whichever reason, let's use the language on another chain. (This *does not* mean that I would find it acceptable for the language to be too inefficient to run under consensus, just that I don't consider the (current) EVM in particular to be the goal.)
+* EVM gas consumption. I believe that language research should guide the VM design as far as practically possible, not the other way around. If the EVM proves insufficient and Ethereum refuses to adapt for whichever reason, let's use the language on another chain. (This does *not* mean that I would find it acceptable for the language to be too inefficient to run under consensus, just that I don't consider the (current) EVM in particular to be the goal.)
 
 # Other info
 
