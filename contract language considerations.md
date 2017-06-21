@@ -10,8 +10,18 @@
 
 # Desiderata
 
+* State changes are described in an analyzable way.
+
+  Metric: Amount of code required to prove properties of a state change. Less is better.
+
+* Hard to introduce errors.
+
+  Metric: The amount of ways the minimal examples can be erroneously implementated that are syntactically "similar" to a correct version. Fewer is better.
+
 * Composability.
+
   Metric 1: Number of minimal examples that can be composed with other ones, without changing their implementations. More is better.
+
   Metric 2: Amount of code required to piece together the minimal examples to (correctly functioning) larger examples. Less is better.
 
   Some examples of contracts that should ideally be composable:
@@ -19,13 +29,8 @@
   * 1+6 = use an option as a token
   * ∀n. 2+n = obvious
 
-* State changes are described in an analyzable way.
-  Metric: Amount of code required to prove properties of a state change. Less is better.
-
-* Hard to introduce errors.
-  Metric: The amount of ways the minimal examples can be erroneously implementated that are syntactically "similar" to a correct version. Fewer is better.
-
 * Emphasis on blockchain-as-a-knowledge-base.
+
   Metric:
     let `c(A)` be the amount of code required to draw conclusions about the state of a set of contracts A.
     
