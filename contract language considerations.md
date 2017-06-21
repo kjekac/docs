@@ -24,7 +24,7 @@
 
   Metric 2: Amount of code required to piece together the minimal examples to (correctly functioning) larger examples. Less is better.
 
-  Some examples of contracts that should ideally be composable:
+  Some examples of the minimal examples that should ideally be composable:
   * 3+4 = key-value store where each value is only mutable by a particular sender.
   * 1+6 = use an option as a token
   * ∀n. 2+n = obvious
