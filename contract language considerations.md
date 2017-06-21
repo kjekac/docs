@@ -37,7 +37,7 @@
 
 * Formal verification possible within the program itself.
 
-* High-level descriptions that are "intuitive" for people familiar with the language.
+* High-level descriptions that are concise and "intuitive" for people familiar with the language.
 
 
 ## Disconsiderations
